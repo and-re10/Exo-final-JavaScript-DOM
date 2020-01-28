@@ -64,8 +64,20 @@ let bt_exo2 = () => {
     maFunction(div2, div1, div3, div4, div5, div6, div7)
 }
 
+//Exo 3
+let input_bt3 = document.getElementById('input-exo3')
+let span_exo3 = document.getElementById('s-prenom')
+let bt_go_exo3 = document.getElementById('bt_go_exo3')
+let go 
 let bt_exo3 = () => {
     maFunction(div3, div1, div2, div4, div5, div6, div7)
+    
+    go = () => {
+        span_exo3.innerHTML = input_bt3.value
+        input_bt3.value = ""
+    }
+    bt_go_exo3.addEventListener('click', go)
+
 }
 
 let bt_exo4 = () => {
