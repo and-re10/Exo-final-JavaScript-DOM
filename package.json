@@ -1,0 +1,23 @@
+{
+  "name": "domjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/and-re10/Exo-final-JavaScript-DOM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/and-re10/Exo-final-JavaScript-DOM/issues"
+  },
+  "homepage": "https://github.com/and-re10/Exo-final-JavaScript-DOM#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1"
+  }
+}
