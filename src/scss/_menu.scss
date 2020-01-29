@@ -29,7 +29,8 @@ div {
 
 .exo4 {
     display: flex;
-    justify-content: start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     background-color: yellow;
     padding: 50px 50px;
@@ -63,4 +64,33 @@ div {
     background-color: blue;
     color: white;
     text-decoration: none;
+}
+
+.rtg1-ex4 {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+
+.rtg2-ex4 {
+    height: 100px;
+    width: 200px;
+    background-color: blue;
+}
+
+.box-exo4 {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+
+.nbClick-box {
+    height: 35px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
 }
