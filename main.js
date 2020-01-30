@@ -143,7 +143,6 @@ let bt_exo5 = () => {
         div_2_img.appendChild(img)
         ++compt
         nb_img.innerHTML = compt
-        console.log(compt)
     }
     bt_rajout.addEventListener('click', ajout_img)
 
@@ -151,7 +150,6 @@ let bt_exo5 = () => {
         div_2_img.removeChild(div_2_img.lastChild)
         --compt
         nb_img.innerHTML = compt
-        console.log(compt)
     }
     bt_ef_last.addEventListener('click', efface_last)
 
@@ -165,8 +163,37 @@ let bt_exo5 = () => {
     bt_ef_all.addEventListener('click', efface_all)
 }
 
+// Exo 6
+let nb1 = document.getElementById('nb_1_exo6')
+let nb2 = document.getElementById('nb_2_exo6')
+let sel = document.getElementById('sel-exo6')
+let egal = document.getElementById('egal')
+let resultat = document.getElementById('resultat')
+
+let niveau1
+
 let bt_exo6 = () => {
     maFunction(div6, div1, div2, div3, div4, div5, div7)
+    //Niveau 1
+    niveau1 = () => {
+        switch (sel.value) {
+            case '+':
+                resultat.innerHTML = parseFloat(nb1.value) + parseFloat(nb2.value)
+                break
+            case '-':
+                resultat.innerHTML = parseFloat(nb1.value) - parseFloat(nb2.value)
+                break
+            case '*':
+                resultat.innerHTML = parseFloat(nb1.value) * parseFloat(nb2.value)
+                break
+            case '/':
+                resultat.innerHTML = parseFloat(nb1.value) / parseFloat(nb2.value)
+                break
+        }
+    }
+    egal.addEventListener('click', niveau1)
+
+    //Niveau 2
 }
 
 let bt_exo7 = () => {
