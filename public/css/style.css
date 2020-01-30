@@ -151,6 +151,97 @@ div {
   margin: 5px;
 }
 
+.calculatrice {
+  height: 400px;
+  width: 300px;
+  background-color: cadetblue;
+  border: 2px solid grey;
+  -webkit-box-shadow: 3px 3px 3px black;
+          box-shadow: 3px 3px 3px black;
+  border-radius: 5px;
+}
+
+.calculatrice .resposta {
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.calculatrice .row1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.calculatrice .row1 input {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  border-radius: 50%;
+  -webkit-box-shadow: 3px 3px 3px black;
+          box-shadow: 3px 3px 3px black;
+}
+
+.calculatrice .row1 button {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: brown;
+  border: 1px solid black;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  border-radius: 50%;
+}
+
+.calculatrice .row1 a {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: brown;
+  border: 1px solid black;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  border-radius: 50%;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
