@@ -242,6 +242,24 @@ div {
   border-radius: 50%;
 }
 
+.error {
+  border: 3px solid red;
+}
+
+.error1 {
+  border: 1px solid red;
+  width: 175px;
+  border-radius: 5px;
+  -webkit-box-shadow: 3px 3px 3px black;
+          box-shadow: 3px 3px 3px black;
+  margin-bottom: 5px;
+}
+
+.espace-list {
+  margin: 5px;
+  width: 100px;
+}
+
 /*!
  * Bootstrap v4.4.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors

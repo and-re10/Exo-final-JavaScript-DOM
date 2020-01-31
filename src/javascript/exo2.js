@@ -40,6 +40,7 @@ let maFunction = (change, no1, no2, no3, no4, no5, no6) => {
         default:
             break
     }
+    
     no1.classList = "d-none"
     no2.classList = "d-none"
     no3.classList = "d-none"
